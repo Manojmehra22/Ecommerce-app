@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Products({ products = [] }) {
+function ProductCard({ products = [] }) {
   return (
     <section className="text-gray-600 body-font mt-[100px]">
       <div className="flex justify-between items-center md:flex-row  p-5 flex-col flex-wrap   md:ml-[150px] md:mr-[150px]">
@@ -39,4 +39,4 @@ function Products({ products = [] }) {
   );
 }
 
-export default Products;
+export default ProductCard;
